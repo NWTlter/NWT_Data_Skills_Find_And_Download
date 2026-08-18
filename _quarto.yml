@@ -11,7 +11,7 @@ website:
     logo-height: 200px  # Adjust this value to make the logo bigger (e.g., 50px, 75px, etc.)
     right:
       - icon: github
-        href: https://github.com/NWTlter/data_skills
+        href: https://github.com/NWTlter/NWT_Data_Skills_Find_And_Download
   sidebar:
     style: "docked"
     search: true
@@ -35,9 +35,9 @@ website:
     tools:
       - icon: bug-fill
         text: "Report an issue"
-        href: "https://github.com/NWTlter/data_skills/issues/new"
+        href: "https://github.com/NWTlter/NWT_Data_Skills_Find_And_Download/issues/new"
   
-  repo-url: https://github.com/NWTlter/data_skills
+  repo-url: https://github.com/NWTlter/NWT_Data_Skills_Find_And_Download
   repo-actions: [issue]
   
   page-navigation: true
