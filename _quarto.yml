@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Niwot Data Skills - Find and Download Data"
+  google-analytics: "G-CW9RMD9SJW"
+  navbar:
+    background: light
+    logo: "figures/Tundra_NoShrub_icon2.png"  # If you have a logo, otherwise remove this line
+    logo-height: 200px  # Adjust this value to make the logo bigger (e.g., 50px, 75px, etc.)
+    right:
+      - icon: github
+        href: https://github.com/NWTlter/data_skills
+  sidebar:
+    style: "docked"
+    search: true
+    background: "green"
+    foreground: "white"
+    contents:
+    - section: Finding/Using Niwot Data
+      contents:
+      - href: index.qmd
+        text: Intro
+      - href: FIND_where_data_live.qmd
+        text: Where Data Live
+      - href: FIND_finding_data.qmd
+        text: Finding Data
+      - href: FIND_reading_metadata.qmd
+        text: Reading Metadata
+      - href: FIND_data_download.qmd
+        text: Data Download
+      - href: FIND_be_a_good_citizen.qmd
+        text: Be a Good Citizen
+    tools:
+      - icon: bug-fill
+        text: "Report an issue"
+        href: "https://github.com/NWTlter/data_skills/issues/new"
+  
+  repo-url: https://github.com/NWTlter/data_skills
+  repo-actions: [issue]
+  
+  page-navigation: true
+  page-footer: "© 2026 Niwot Ridge LTER"
+  margin-footer: |
+    ![](figures/Tundra_NoShrub_icon2.png){ width=60% }
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "On this page"
+    toc-location: right
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Open Sans"
+    smooth-scroll: true
+    search: true
+
+
+
+
+
+
